@@ -133,7 +133,7 @@ function load(i){
   case3Stage=0;
   const stages=[
    {name:"STAGE 1 — PLAYER ONE",story:"Every great gaming story has a beginning. Ours started with two players, one console, and a battle neither of us would forget.",question:"What was the gaming console we played on that day?",type:"text",answer:"PS5",hint:"It's Sony's fifth-generation PlayStation console. 😉",placeholder:"Enter the console"},
-   {name:"STAGE 2 — VERSUS MODE",story:"Two players entered the battle. One was confident, the other was still figuring out the controls. And then the real competition began!",question:"Which game did we play against each other during our first PS5 experience?",options:["FIFA","Tekken 11","Mortal Kombat","WWE 2K"],correct:1,hint:"It's the second one. 😉"},
+   {name:"STAGE 2 — VERSUS MODE",story:"Two players entered the battle. One was confident, the other was still figuring out the controls. And then the real competition began!",question:"Which game did we play against each other during our first PS5 experience?",options:["FIFA","Mortal Kombat","Tekken 11","WWE 2K"],correct:1,hint:"It's the second one. 😉"},
    {name:"STAGE 3 — UNDEFEATED",story:"One player kept collecting victories. The other had a very expressive way of handling defeat. 😂",question:"What happened whenever Player One won a match?",options:["She celebrated with you","She activated friendly rage mode. 😂","She asked for a rematch","She switched off the console"],correct:1,hint:"Victory wasn't the only thing making noise that day. 😂"}
   ];
   const renderStage=()=>{
